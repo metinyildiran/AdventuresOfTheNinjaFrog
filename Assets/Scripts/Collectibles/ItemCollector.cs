@@ -8,7 +8,7 @@ namespace Collectibles
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
-            var collectible = collision.gameObject.GetComponent<Collectible>();
+            var collectible = collision.gameObject.GetComponent<CollectibleBase>();
             if (collectible)
             {
                 collectSoundEffect.Play();

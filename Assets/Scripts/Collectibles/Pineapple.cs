@@ -1,6 +1,6 @@
 namespace Collectibles
 {
-    public class Pineapple : Collectible
+    public class Pineapple : CollectibleBase
     {
         protected override void SetValue()
         {

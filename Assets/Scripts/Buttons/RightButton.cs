@@ -5,7 +5,7 @@ namespace Buttons
     public class RightButton : ButtonPressBase
     {
         public bool RightPressed { get; private set; }
-        
+
         public override void OnPointerDown(PointerEventData eventData)
         {
             RightPressed = true;

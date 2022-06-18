@@ -1,6 +1,6 @@
 namespace Collectibles
 {
-    public class Cherry : Collectible
+    public class Cherry : CollectibleBase
     {
         protected override void SetValue()
         {

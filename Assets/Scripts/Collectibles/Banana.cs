@@ -1,6 +1,6 @@
 namespace Collectibles
 {
-    public class Banana : Collectible
+    public class Banana : CollectibleBase
     {
         protected override void SetValue()
         {
