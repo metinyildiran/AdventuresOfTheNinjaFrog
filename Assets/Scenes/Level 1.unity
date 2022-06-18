@@ -1025,8 +1025,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alwaysFollow: 1
-  distanceX: 0
-  distanceY: 0
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
